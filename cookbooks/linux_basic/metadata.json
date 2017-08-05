@@ -1,0 +1,8 @@
+{
+  "name": "linux_basic",
+  "description": "Basic DevOps for single machine",
+  "long_description": "harish repo",
+  "maintainer": "harish",
+  "maintainer_email": "harishkumarswamy@gmail.com",
+  "license": "All rights reserved"
+}
