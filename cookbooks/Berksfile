@@ -1,4 +1,7 @@
 # frozen_string_literal: true
 source 'https://supermarket.chef.io'
 
-metadata
+#dependencies
+cookbook 'apt'
+
+cookbook 'nginx', path: './nginx'
