@@ -1,0 +1,17 @@
+1.create empty git and download to locamachine
+2.create chef account and oraganisation 
+3. download chefDK to git location and commit. 
+4.Knife - this command is used to execute chef commands in chef-workstation. 
+  apt-get install gem; apt-get install ruby; gem install knife-essentials; gem install knife-dev 
+ 	chef package location - https://downloads.chef.io/chefdk/2.4.17#ubuntu - this package extension is .deb
+		dpkg -i <packagename>.deb
+	
+5. how to create recipe
+   vi user.rb
+      user "user_name" do 
+          end
+6. execute particular recipe in workstation
+      chef-appy recipe.rb
+
+7. upload cookbooks to chef-server
+      knife upload / cookbooks  
