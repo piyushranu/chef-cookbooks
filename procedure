@@ -15,3 +15,8 @@
 
 7. upload cookbooks to chef-server
       knife upload / cookbooks  
+8.bootstrapping
+      knife bootstrap 192.168.0.20 -x username -P password -N node1 --sudo
+9.node list
+	knife node list
+	knife node show node1
